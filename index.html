@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="card">
+            <h1>Encriptador De Textos</h1>
+            <label for="textarea">Ingrese Texto Aqui:</label>
+            <textarea class="input" id="textarea"></textarea>
+            <select class="select", id="operation">
+            <option value="encrypt">Encriptar</option>
+            <option value="decrypt">Desencriptar</option>
+            </select>
+            <button class="button button1", onclick="processText()">Procesar</button>
+            <p><i class="fa fa-copyright" aria-hidden="true"> Hernan D. Medina</i></p>
+            
+        </div>
+        <div class="cal">
+            <div id="result"></div>
+                <button class="button button2" , onclick="copyToClipboard()">Copiar</button>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
