@@ -29,7 +29,7 @@ Este es un proyecto de una aplicación web simple para encriptar y desencriptar 
 
 A continuación se muestra un ejemplo de cómo se vería la interfaz de usuario:
 
-![Interfaz de Usuario](screenshot.png)
+![Interfaz de Usuario](interfaz.png)
 
 ## Contribución
 
