@@ -4,8 +4,8 @@
     height: 600px;
     display: grid;
     position: absolute;
-    grid-template-columns: 4fr 2fr; /* Dividir el espacio en dos columnas de igual ancho */
-    grid-gap: 10px; /* Espacio entre las columnas */
+    grid-template-columns: 4fr 2fr; 
+    grid-gap: 10px; 
     margin: 5, 5;
     border-radius: 24px;
     border: 1px solid #1875E8;
@@ -79,7 +79,6 @@ textarea {
 
 .button {
     background-color: #04AA6D;
-    /* Green */
     border-radius: 5px;
     color: white;
     padding: 16px 32px;
